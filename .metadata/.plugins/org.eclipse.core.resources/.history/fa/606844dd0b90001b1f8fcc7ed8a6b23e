@@ -1,0 +1,25 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.E;
+import cucumber.api.java.pt.Então;
+import cucumber.api.java.pt.Quando;
+import sun.security.util.PendingException;
+
+public class CadastroDeUsuario {
+	
+	WebDriver driver;
+	
+	public void inicializar() {
+		driver = new FirefoxDriver();
+		driver.get("http://prova.stefanini-jgr.com.br/teste/qa/");
+		//driver.quit();
+	}
+	
+	
+	@Dado("^que acesso a tela de cadastro do usuário\\.$")
+	public void queAcessoATelaDeCadastroDoUsuário() throws Throwable {
+		inicializar();
+	}	
+}

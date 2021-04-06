@@ -1,0 +1,56 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import cucumber.api.java.pt.Dado;
+import cucumber.api.java.pt.E;
+import cucumber.api.java.pt.Então;
+import cucumber.api.java.pt.Quando;
+import sun.security.util.PendingException;
+
+public class CadastrarUsuario {
+	
+	@Dado("^que acesse a tela inicial de cadastro do usuário\\.$")
+	public void que_acesse_a_tela_inicial_de_cadastro_do_usuário() throws Throwable {    
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://prova.stefanini-jgr.com.br/teste/qa/");
+		driver.quit();
+	    throw new PendingException();
+	}
+
+	@E("^insira nome do usuário\\.$")
+	public void insira_nome_do_usuário() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@E("^insira email do usuário\\.$")
+	public void insira_email_do_usuário() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@E("^insira senha do usuário\\.$")
+	public void insira_senha_do_usuário() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Quando("^clicar no botão \\[Cadastrar\\]\\.$")
+	public void clicar_no_botão_Cadastrar() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Então("^o sistema exibe a mensagem: usuário cadastrado$")
+	public void o_sistema_exibe_a_mensagem_usuário_cadastrado() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Então("^usuaria que foi cadastrado\\.$")
+	public void usuaria_que_foi_cadastrado() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+}

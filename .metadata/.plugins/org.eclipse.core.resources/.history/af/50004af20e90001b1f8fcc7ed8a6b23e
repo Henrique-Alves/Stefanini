@@ -1,0 +1,17 @@
+
+public class EnviarCadastroDoUsuarioSemEmail {
+
+	
+	@Dado("^que inserir nome sobrenome do usário\\.$")
+	public void queInserirNomeSobrenomeDoUsário() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Então("^O sistema exibe a mensagem: O campo email é obrigatório\\.$")
+	public void oSistemaExibeAMensagemOCampoEmailÉObrigatório() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+}

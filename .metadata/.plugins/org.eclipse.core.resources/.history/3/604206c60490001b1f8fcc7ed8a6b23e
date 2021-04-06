@@ -1,0 +1,20 @@
+#language:pt
+
+
+
+Funcionalidade: Cadastrar Usuário
+
+   Eu como usuário do sistema.
+   Desejo realizar o cadastro de novos usuários.
+   Para que seja possível armazenar e gerenciar seus dados.
+   
+   
+ Cenário: Deve cadastrar usuário
+
+ Dado que acesse a tela inicial de cadastro do usuário.
+ E insira nome do usuário.
+ E insira email do usuário.
+ E insira senha do usuário.
+ Quando clicar no botão [Cadastrar].
+ Então o sistema exibe a mensagem: usuário cadastrado
+ E usuaria que foi cadastrado.
